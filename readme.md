@@ -33,8 +33,10 @@ $ node server
 Run integration tests:
 A server running in another console is needed!!! (previous step)
 ```sh
-$ mocha .\testIntegration
+$ mocha testIntegration
 ```
+
+Note: All this was tested just in a windows machine! :(
 
 ## Links
 [GitHub Repo](https://github.com/maxaldunate/qandidateMax.git)
