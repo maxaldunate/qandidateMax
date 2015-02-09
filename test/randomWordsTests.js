@@ -1,6 +1,7 @@
 var	cfgTest     = require('./configTest');
 var RandomWord  = require('./../server/assets/randomWords.js');
 
+
 describe('Random Word', function() {
     describe('should load file for random words', function() {
 
@@ -11,7 +12,8 @@ describe('Random Word', function() {
         });
 
         it('should return one word', function() {
-            sut.GetNext().should.eql('maximilian');
+        	var word = sut.GetNext();
+            sut.GetNext().should.eql(word);
         });
 
     });
