@@ -1,0 +1,23 @@
+{
+  "name": "QandidateMax",
+  "version": "0.0.1",
+  "description": "Qandidate Developer assessment v0.1 - Max Aldunate",
+  "scripts": {
+    "test": "mocha serverUnitTests/*"
+  },
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.22",
+    "morgan": "^1.5.1",
+    "multer": "^0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "mongoose-fakery": "^0.1.7",
+    "should": "^4.6.5",
+    "sinon": "^1.12.2",
+    "supertest": "^0.15.0",
+    "winston": "^0.9.0"
+  }
+}
