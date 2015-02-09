@@ -57,8 +57,9 @@ Note: All this was tested just in a windows machine! :(
 
 					- Guessing a correct letter doesn’t decrement the amount of tries left
 					- Only valid characters are a-z
-					- A list of words can be found
-					 https://drive.google.com/file/d/0Bz23lIMv61czenRpc3NUV3NlWUU/edit?usp=sharing
+					- 
 					- At the start of the game a random word will be picked from this list.
 
     All chars are accepted, but just the valids are taking into account. (a-z)
+    A list of words can be found here
+    https://drive.google.com/file/d/0Bz23lIMv61czenRpc3NUV3NlWUU/edit?usp=sharing
