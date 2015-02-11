@@ -6,31 +6,40 @@
 ## The Hangman API
 ***
 
+## How to install Node, NPM and Mocha
+[How to install NodeJs](http://nodejs.org/download/)
+
+[How to install npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm)
+
+[How to install Mocha](https://www.npmjs.com/package/mocha)
+
+
 ## Quick setup environment
 
-Install Node.js and then:
+When NodeJs, npm & mocha are already installed
+
 ```sh
 $ git clone https://github.com/maxaldunate/qandidateMax.git
 $ cd qandidateMax
 $ npm install
 ```
 
-Install mocha globally:
+Install mocha globally
 ```sh
 $ npm install -g mocha
 ```
 
-Run unit tests:
+Run unit tests
 ```sh
 $ mocha
 ```
 
-Run a Node Server:
+Run a Node Server
 ```sh
 $ node server
 ```
 
-Run integration tests:
+Run integration tests
 A server running in another console is needed!!! (previous step)
 ```sh
 $ mocha testIntegration
