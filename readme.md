@@ -13,6 +13,11 @@
 
 [How to install Mocha](https://www.npmjs.com/package/mocha)
 
+## MongoDB database
+The project try to connect to a [mongolab](https://mongolab.com/) account already configured. If you can't access it, you need to install a local mongodb or change the config.js and the ./test/configTest.js files to connect to another mongodb instance.
+
+[How to install MongoDB](http://docs.mongodb.org/manual/installation/)
+
 
 ## Quick setup environment
 
